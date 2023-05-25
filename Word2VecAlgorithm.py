@@ -33,7 +33,7 @@ class Word2VecAlgorithm(AlgoBase):
             pair = (products_dict[j[0]][0], j[1])
             new_ms.append(pair)
         
-    return best_item     
+    return new_ms     
 
 
 
